@@ -787,6 +787,7 @@ body {
     }
     .box__letter .letter__border{
         width: 95%;
+        height: 600px;
     }
     .letter__border .letter .title__letter{
         font-size: 2rem;
@@ -814,5 +815,11 @@ body {
         font-size: 0.9rem!important;
         margin-top: 0px!important;
         
+    }
+
+}
+@media (max-width: 480px){
+    .letter__border {
+        height:auto;
     }
 }
